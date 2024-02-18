@@ -24,4 +24,4 @@ modules:
       - type: git
         url: https://github.com/mak448a/QTCord
         tag: v0.0.8
-        commit: f3b6c7efd47bbb31eec228be86e423d0bf64b70d
+        commit: fd4029b44aba5f04e42e08f765087fbe226ef87d
