@@ -18,10 +18,10 @@ modules:
       - mv licenses/ /app/bin/
       - install -Dm 644 src/flatpak_builder/io.github.mak448a.QTCord.metainfo.xml /app/share/metainfo/io.github.mak448a.QTCord.metainfo.xml
       - install -Dm 644 src/smiley.svg ${FLATPAK_DEST}/share/icons/hicolor/scalable/apps/${FLATPAK_ID}.svg
-      - install -Dm644 src/io.github.mak448a.QTCord.desktop /app/share/applications/io.github.mak448a.QTCord.desktop
+      - install -Dm644 src/flatpak_builder/io.github.mak448a.QTCord.desktop /app/share/applications/io.github.mak448a.QTCord.desktop
       - mv src/* /app/bin
     sources:
       - type: git
         url: https://github.com/mak448a/QTCord
-        tag: v0.0.8
-        commit: fd4029b44aba5f04e42e08f765087fbe226ef87d
+        tag: v0.0.9
+        commit: 86fc4c01b12e99249d348165a166bc24fe9425a0
