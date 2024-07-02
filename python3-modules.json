@@ -12,8 +12,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/64/62/428ef076be88fa93716b576e4a01f919d25968913e817077a386fcbe4f42/certifi-2023.11.17-py3-none-any.whl",
-                    "sha256": "e036ab49d5b79556f99cfc2d9320b34cfbe5be05c5871b51de9329f0603b0474"
+                    "url": "https://files.pythonhosted.org/packages/5b/11/1e78951465b4a225519b8c3ad29769c49e0d8d157a070f681d5b6d64737f/certifi-2024.6.2-py3-none-any.whl",
+                    "sha256": "ddc6c8ce995e6987e7faf5e3f1b02b302836a0e5d98ece18392cb1a36c72ad56"
                 },
                 {
                     "type": "file",
@@ -22,18 +22,18 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/c2/e7/a82b05cf63a603df6e68d59ae6a68bf5064484a0718ea5033660af4b54a9/idna-3.6-py3-none-any.whl",
-                    "sha256": "c05567e9c24a6b9faaa835c4821bad0590fbb9d5779e7caa6e1cc4978e7eb24f"
+                    "url": "https://files.pythonhosted.org/packages/e5/3e/741d8c82801c347547f8a2a06aa57dbb1992be9e948df2ea0eda2c8b79e8/idna-3.7-py3-none-any.whl",
+                    "sha256": "82fee1fc78add43492d3a1898bfa6d8a904cc97d8427f683ed8e798d07761aa0"
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/70/8e/0e2d847013cb52cd35b38c009bb167a1a26b2ce6cd6965bf26b47bc0bf44/requests-2.31.0-py3-none-any.whl",
-                    "sha256": "58cd2187c01e70e6e26505bca751777aa9f2ee0b7f4300988b709f44e013003f"
+                    "url": "https://files.pythonhosted.org/packages/f9/9b/335f9764261e915ed497fcdeb11df5dfd6f7bf257d4a6a2a686d80da4d54/requests-2.32.3-py3-none-any.whl",
+                    "sha256": "70761cfe03c773ceb22aa2f671b4757976145175cdfca038c02654d061d6dcc6"
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/96/94/c31f58c7a7f470d5665935262ebd7455c7e4c7782eb525658d3dbf4b9403/urllib3-2.1.0-py3-none-any.whl",
-                    "sha256": "55901e917a5896a349ff771be919f8bd99aff50b79fe58fec595eb37bbc56bb3"
+                    "url": "https://files.pythonhosted.org/packages/ca/1c/89ffc63a9605b583d5df2be791a27bc1a42b7c32bab68d3c8f2f73a98cd4/urllib3-2.2.2-py3-none-any.whl",
+                    "sha256": "a448b2f64d686155468037e1ace9f2d2199776e17f0a46610480d311f73e3472"
                 }
             ]
         },
@@ -46,65 +46,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/be/53/42fe5eab4a09d251a76d0043e018172db324a23fcdac70f77a551c11f618/platformdirs-4.1.0-py3-none-any.whl",
-                    "sha256": "11c8f37bcca40db96d8144522d925583bdb7a31f7b0e37e3ed4318400a8e2380"
-                }
-            ]
-        },
-        {
-            "name": "python3-pyside6",
-            "buildsystem": "simple",
-            "build-commands": [
-                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"pyside6\" --no-build-isolation"
-            ],
-            "sources": [
-                {
-                    "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/24/3a/a970808004b16dabdfaf77fa602b43a85c4d8812709a8bae065577283c4c/PySide6-6.6.1-cp38-abi3-manylinux_2_28_x86_64.whl",
-                    "sha256": "0a67587c088cb80e90d4ce3023b02466ea858c93a6dc9c4e062b13314e03d464",
-                    "only-arches": ["x86_64"]
-                },
-                {
-                    "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/ec/b8/1f5335580241c3863584173308c842ffc74e05074f3f72b49e5b54ca18e3/PySide6_Addons-6.6.1-cp38-abi3-manylinux_2_28_x86_64.whl",
-                    "sha256": "a0982da4033319667f9df5ed6fa8eff300a88216aec103a1fff6751a172b19a0",
-                    "only-arches": ["x86_64"]
-                },
-                {
-                    "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/56/65/50d0ced768b717f709a5ab224b648eb533a862efd0cde67d19c2727200b0/PySide6_Essentials-6.6.1-cp38-abi3-manylinux_2_28_x86_64.whl",
-                    "sha256": "c7185616083eab6f42eaed598d97d49fac4f60ae2e7415194140d54f58c2b42c",
-                    "only-arches": ["x86_64"]
-                },
-                {
-                    "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/bb/72/e54f758e49e8da0dcd9490d006c41a814b0e56898ce4ca054d60cdba97bd/shiboken6-6.6.1-cp38-abi3-manylinux_2_28_x86_64.whl",
-                    "sha256": "fb102e4bc210006f0cdd0ce38e1aaaaf792bd871f02a2b3f01d07922c5cf4c59",
-                    "only-arches": ["x86_64"]
-                },
-                {
-                    "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/9d/67/84e3676b954106302de04782763d09c3716c65621d76769af209edc0d948/PySide6-6.6.1-cp38-abi3-manylinux_2_31_aarch64.whl",
-                    "sha256": "ed3822150f0d7a06b68bf4ceebe287515b5e8309bb256e9b49ae405afd062b18",
-                    "only-arches": ["aarch64"]
-                },
-                {
-                    "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/47/f0/334bb65c0bf9ed61df642d10722ddb30562bcf7c3b514bec4e51b32dd6ab/shiboken6-6.6.1-cp38-abi3-manylinux_2_31_aarch64.whl",
-                    "sha256": "a605960e72af5eef915991cee7eef4cc72f5cabe63b9ae1a955ceb3d3b0a00b9",
-                    "only-arches": ["aarch64"]
-                },
-                {
-                    "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/b6/4a/bd16c3fb1a3e423151dce4d51f70c2df6b5f8337689d8f471a7969c30b2f/PySide6_Addons-6.6.1-cp38-abi3-manylinux_2_31_aarch64.whl",
-                    "sha256": "5a63a8a943724ce5acd2df72e5ab04982b6906963278cbabb216656b9a26ee18",
-                    "only-arches": ["aarch64"]
-                },
-                {
-                    "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/73/28/1313720f3e30304b1fd13aab139ec21f30a01f237e70e631663ddad21fd1/PySide6_Essentials-6.6.1-cp38-abi3-manylinux_2_31_aarch64.whl",
-                    "sha256": "a383c3d60298392cfb621ec1a0cf24b4799321e6c5bbafc021d4cc8076ea1315",
-                    "only-arches": ["aarch64"]
+                    "url": "https://files.pythonhosted.org/packages/68/13/2aa1f0e1364feb2c9ef45302f387ac0bd81484e9c9a4c5688a322fbdfd08/platformdirs-4.2.2-py3-none-any.whl",
+                    "sha256": "2d7a1657e36a80ea911db832a8a6ece5ee53d8de21edd5cc5879af6530b1bfee"
                 }
             ]
         }
