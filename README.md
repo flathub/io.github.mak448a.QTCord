@@ -3,7 +3,9 @@
 Download flatpak-pip-generator
 `curl -o flatpak-pip-generator https://raw.githubusercontent.com/flatpak/flatpak-builder-tools/master/pip/flatpak-pip-generator`
 
-Do a `python3 flatpak-pip-generator requests platformdirs` to generate a json file for it
+Do a `python3 flatpak-pip-generator requests platformdirs` to generate a json file (keep this separate!).
+Manually go to pypi and update the hashes and download links for PySide6 dependencies.
+
 
 `flatpak-builder build-dir io.github.mak448a.QTCord.yml`
 `flatpak-builder --user --install --force-clean build-dir io.github.mak448a.QTCord.yml`
