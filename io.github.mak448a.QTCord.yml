@@ -3,12 +3,10 @@ runtime: org.kde.Platform
 runtime-version: '6.7'
 sdk: org.kde.Sdk
 command: io.github.mak448a.QTCord
-
 base: io.qt.PySide.BaseApp
 base-version: '6.7'
 cleanup-commands:
   - /app/cleanup-BaseApp.sh
-
 finish-args:
   - --socket=wayland
   - --share=network
