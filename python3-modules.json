@@ -125,20 +125,6 @@
             ]
         },
         {
-            "name": "pyqtdarkthemefork",
-            "buildsystem": "simple",
-            "build-commands": [
-                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"pyqtdarktheme-fork\" --no-build-isolation"
-            ],
-            "sources": [
-                {
-                    "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/4d/06/8a77ddbc37efd415602237fbb9685e0a52e112d31dfc3a7cb28c8656dd2c/pyqtdarktheme_fork-2.3.2-py3-none-any.whl",
-                    "sha256": "d96ee64f0884678fad9b6bc352d5e37d84ca786fa60ed32ffaa7e6c6bc67e964"
-                }
-            ]
-        },
-        {
             "name": "darkdetect",
             "buildsystem": "simple",
             "build-commands": [
@@ -149,6 +135,20 @@
                     "type": "file",
                     "url": "https://files.pythonhosted.org/packages/f2/f2/728f041460f1b9739b85ee23b45fa5a505962ea11fd85bdbe2a02b021373/darkdetect-0.8.0-py3-none-any.whl",
                     "sha256": "a7509ccf517eaad92b31c214f593dbcf138ea8a43b2935406bbd565e15527a85"
+                }
+            ]
+        },
+        {
+            "name": "pyqtdarkthemefork",
+            "buildsystem": "simple",
+            "build-commands": [
+                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"pyqtdarktheme-fork\" --no-build-isolation"
+            ],
+            "sources": [
+                {
+                    "type": "file",
+                    "url": "https://files.pythonhosted.org/packages/4d/06/8a77ddbc37efd415602237fbb9685e0a52e112d31dfc3a7cb28c8656dd2c/pyqtdarktheme_fork-2.3.2-py3-none-any.whl",
+                    "sha256": "d96ee64f0884678fad9b6bc352d5e37d84ca786fa60ed32ffaa7e6c6bc67e964"
                 }
             ]
         }
