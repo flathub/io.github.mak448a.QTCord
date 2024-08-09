@@ -3,7 +3,7 @@
 Download flatpak-pip-generator
 `curl -o flatpak-pip-generator https://raw.githubusercontent.com/flatpak/flatpak-builder-tools/master/pip/flatpak-pip-generator`
 
-Do a `python3 flatpak-pip-generator requests platformdirs` to generate a json file (keep this separate!).
+Do a `python3 flatpak-pip-generator requests platformdirs, etc.` to generate a json file (keep this separate!).
 Manually go to pypi and update the hashes and download links for PySide6 dependencies.
 
 
