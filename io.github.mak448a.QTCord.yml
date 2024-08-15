@@ -27,5 +27,5 @@ modules:
     sources:
       - type: git
         url: https://github.com/mak448a/QTCord
-        tag: v0.0.17
-        commit: 525f71b4e1840f3c47725afb0a2c09692a4f3498
+        tag: v0.0.18
+        commit: 77865ec926710f783573d6770d453f0de9ba61e7
