@@ -26,5 +26,5 @@ modules:
       - mv src/* /app/bin
     sources:
       - type: git
-        url: https://github.com/mak448a/QTCord
-        commit: 0febae0c998365698b9c4f7c05202601ff9ce5dd
+        url: https://github.com/mak448a/Qtcord
+        commit: dbb1d97d935cf409813d5df9ec936d13b81e9a18
