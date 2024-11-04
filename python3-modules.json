@@ -16,7 +16,8 @@
                     "sha256": "922820b53db7a7257ffbda3f597266d435245903d80737e34f8a45ff3e3230d8",
                     "x-checker-data": {
                         "type": "pypi",
-                        "name": "certifi"
+                        "name": "certifi",
+                        "packagetype": "bdist_wheel"
                     }
                 },
                 {
@@ -34,7 +35,8 @@
                     "sha256": "946d195a0d259cbba61165e88e65941f16e9b36ea6ddb97f00452bae8b1287d3",
                     "x-checker-data": {
                         "type": "pypi",
-                        "name": "idna"
+                        "name": "idna",
+                        "packagetype": "bdist_wheel"
                     }
                 },
                 {
@@ -43,7 +45,8 @@
                     "sha256": "70761cfe03c773ceb22aa2f671b4757976145175cdfca038c02654d061d6dcc6",
                     "x-checker-data": {
                         "type": "pypi",
-                        "name": "requests"
+                        "name": "requests",
+                        "packagetype": "bdist_wheel"
                     }
                 },
                 {
@@ -52,7 +55,8 @@
                     "sha256": "ca899ca043dcb1bafa3e262d73aa25c465bfb49e0bd9dd5d59f1d0acba2f8fac",
                     "x-checker-data": {
                         "type": "pypi",
-                        "name": "urllib3"
+                        "name": "urllib3",
+                        "packagetype": "bdist_wheel"
                     }
                 }
             ]
@@ -88,7 +92,8 @@
                     "sha256": "73e575e1408ab8103900836b97580d5307456908a03e92031bab39e4554cc3fb",
                     "x-checker-data": {
                         "type": "pypi",
-                        "name": "platformdirs"
+                        "name": "platformdirs",
+                        "packagetype": "bdist_wheel"
                     }
                 }
             ]
@@ -106,7 +111,8 @@
                     "sha256": "17b44cc997f5c498e809b22cdf2d9c7a9e71c02c8cc2b6c56e7c2d1239bfa526",
                     "x-checker-data": {
                         "type": "pypi",
-                        "name": "websocket-client"
+                        "name": "websocket-client",
+                        "packagetype": "bdist_wheel"
                     }
                 }
             ]
