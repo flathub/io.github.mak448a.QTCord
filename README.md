@@ -4,7 +4,14 @@ Download flatpak-pip-generator
 `curl -o flatpak-pip-generator https://raw.githubusercontent.com/flatpak/flatpak-builder-tools/master/pip/flatpak-pip-generator`
 
 Do a `python3 flatpak-pip-generator requests platformdirs, etc.` to generate a json file (keep this separate!).
-Manually go to pypi and update the hashes and download links for PySide6 dependencies.
+Manually add the below to each package. If not a whl file, remove the packagetype key.
+```json
+"x-checker-data": {
+    "type": "pypi",
+    "name": "idna",
+    "packagetype": "bdist_wheel"
+}
+```
 
 
 `flatpak-builder build-dir io.github.mak448a.QTCord.yml`
