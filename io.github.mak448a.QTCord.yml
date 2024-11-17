@@ -1,10 +1,10 @@
 app-id: io.github.mak448a.QTCord
 runtime: org.kde.Platform
-runtime-version: '6.7'
+runtime-version: '6.8'
 sdk: org.kde.Sdk
 command: io.github.mak448a.QTCord
 base: io.qt.PySide.BaseApp
-base-version: '6.7'
+base-version: '6.8'
 cleanup-commands:
   - /app/cleanup-BaseApp.sh
 finish-args:
@@ -15,7 +15,7 @@ finish-args:
   - --device=dri
 modules:
   - python3-modules.json
-  - name: BuildQTCord
+  - name: BuildQtcord
     buildsystem: simple
     build-commands:
       - install -D src/flatpak_builder/io.github.mak448a.QTCord /app/bin/io.github.mak448a.QTCord
