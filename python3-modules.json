@@ -88,8 +88,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/cb/e3/1eddccb2c39ecfbe09b3add42a04abcc3fa5b468aa4224998ffb8a7e9c8f/platformdirs-4.7.0-py3-none-any.whl",
-                    "sha256": "1ed8db354e344c5bb6039cd727f096af975194b508e37177719d562b2b540ee6",
+                    "url": "https://files.pythonhosted.org/packages/70/77/e8c95e95f1d4cdd88c90a96e31980df7e709e51059fac150046ad67fac63/platformdirs-4.9.1-py3-none-any.whl",
+                    "sha256": "61d8b967d34791c162d30d60737369cbbd77debad5b981c4bfda1842e71e0d66",
                     "x-checker-data": {
                         "type": "pypi",
                         "name": "platformdirs",
