@@ -58,15 +58,6 @@
                         "name": "urllib3",
                         "packagetype": "bdist_wheel"
                     }
-                },
-                {
-                    "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/43/4b/674af6ef2f97d56f0ab5153bf0bfa28ccb6c3ed4d1babf4305449668807b/keyring-25.7.0.tar.gz",
-                    "sha256": "fe01bd85eb3f8fb3dd0405defdeac9a5b4f6f0439edbb3149577f244a2e8245b",
-                    "x-checker-data": {
-                        "type": "pypi",
-                        "name": "keyring"
-                    }
                 }
             ]
         },
@@ -106,8 +97,65 @@
                     }
                 }
             ]
-        }
-
-        
+        },
+        {
+            "name": "python3-keyring",
+            "buildsystem": "simple",
+            "build-commands": [
+                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"keyring\" --no-build-isolation"
+            ],
+            "sources": [
+                {
+                    "type": "file",
+                    "url": "https://files.pythonhosted.org/packages/7f/66/b15ce62552d84bbfcec9a4873ab79d993a1dd4edb922cbfccae192bd5b5f/jaraco.classes-3.4.0-py3-none-any.whl",
+                    "sha256": "f662826b6bed8cace05e7ff873ce0f9283b5c924470fe664fff1c2f00f581790",
+                    "x-checker-data": {
+                        "type": "pypi",
+                        "name": "jaraco.classes",
+                        "packagetype": "bdist_wheel"
+                    }
+                },
+                {
+                    "type": "file",
+                    "url": "https://files.pythonhosted.org/packages/f4/49/c152890d49102b280ecf86ba5f80a8c111c3a155dafa3bd24aeb64fde9e1/jaraco_context-6.1.1-py3-none-any.whl",
+                    "sha256": "0df6a0287258f3e364072c3e40d5411b20cafa30cb28c4839d24319cecf9f808",
+                    "x-checker-data": {
+                        "type": "pypi",
+                        "name": "jaraco_context",
+                        "packagetype": "bdist_wheel"
+                    }
+                },
+                {
+                    "type": "file",
+                    "url": "https://files.pythonhosted.org/packages/fd/c4/813bb09f0985cb21e959f21f2464169eca882656849adf727ac7bb7e1767/jaraco_functools-4.4.0-py3-none-any.whl",
+                    "sha256": "9eec1e36f45c818d9bf307c8948eb03b2b56cd44087b3cdc989abca1f20b9176",
+                    "x-checker-data": {
+                        "type": "pypi",
+                        "name": "jaraco_functools",
+                        "packagetype": "bdist_wheel"
+                    }
+                },
+                {
+                    "type": "file",
+                    "url": "https://files.pythonhosted.org/packages/81/db/e655086b7f3a705df045bf0933bdd9c2f79bb3c97bfef1384598bb79a217/keyring-25.7.0-py3-none-any.whl",
+                    "sha256": "be4a0b195f149690c166e850609a477c532ddbfbaed96a404d4e43f8d5e2689f",
+                    "x-checker-data": {
+                        "type": "pypi",
+                        "name": "keyring",
+                        "packagetype": "bdist_wheel"
+                    }
+                },
+                {
+                    "type": "file",
+                    "url": "https://files.pythonhosted.org/packages/a4/8e/469e5a4a2f5855992e425f3cb33804cc07bf18d48f2db061aec61ce50270/more_itertools-10.8.0-py3-none-any.whl",
+                    "sha256": "52d4362373dcf7c52546bc4af9a86ee7c4579df9a8dc268be0a2f949d376cc9b",
+                    "x-checker-data": {
+                        "type": "pypi",
+                        "name": "more_itertools",
+                        "packagetype": "bdist_wheel"
+                    }
+                }
+            ]
+        } 
     ]
 }
