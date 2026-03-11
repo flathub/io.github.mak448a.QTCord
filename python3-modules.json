@@ -58,6 +58,15 @@
                         "name": "urllib3",
                         "packagetype": "bdist_wheel"
                     }
+                },
+                {
+                    "type": "file",
+                    "url": "https://files.pythonhosted.org/packages/43/4b/674af6ef2f97d56f0ab5153bf0bfa28ccb6c3ed4d1babf4305449668807b/keyring-25.7.0.tar.gz",
+                    "sha256": "fe01bd85eb3f8fb3dd0405defdeac9a5b4f6f0439edbb3149577f244a2e8245b",
+                    "x-checker-data": {
+                        "type": "pypi",
+                        "name": "keyring"
+                    }
                 }
             ]
         },
@@ -97,25 +106,8 @@
                     }
                 }
             ]
-        },
-        {
-            "name": "python3-websocket-client",
-            "buildsystem": "simple",
-            "build-commands": [
-                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"websocket-client\" --no-build-isolation"
-            ],
-            "sources": [
-                {
-                    "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/34/db/b10e48aa8fff7407e67470363eac595018441cf32d5e1001567a7aeba5d2/websocket_client-1.9.0-py3-none-any.whl",
-                    "sha256": "af248a825037ef591efbf6ed20cc5faa03d3b47b9e5a2230a529eeee1c1fc3ef",
-                    "x-checker-data": {
-                        "type": "pypi",
-                        "name": "websocket-client",
-                        "packagetype": "bdist_wheel"
-                    }
-                }
-            ]
         }
+
+        
     ]
 }
