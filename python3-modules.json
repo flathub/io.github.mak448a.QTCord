@@ -154,6 +154,16 @@
                         "name": "more_itertools",
                         "packagetype": "bdist_wheel"
                     }
+                },
+                {
+                    "type": "file",
+                    "url": "https://files.pythonhosted.org/packages/b7/46/f5af3402b579fd5e11573ce652019a67074317e18c1935cc0b4ba9b35552/secretstorage-3.5.0-py3-none-any.whl",
+                    "sha256": "0ce65888c0725fcb2c5bc0fdb8e5438eece02c523557ea40ce0703c266248137",
+                    "x-checker-data": {
+                        "type": "pypi",
+                        "name": "secretstorage",
+                        "packagetype": "bdist_wheel"
+                    }
                 }
             ]
         }
