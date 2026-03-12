@@ -118,7 +118,7 @@
                     "type": "file",
                     "url": "https://files.pythonhosted.org/packages/59/ea/f1d6ad95c0a12fbe761a7c28a57540341f188564dbe8ad730a4d1788cd32/maturin-1.12.6-py3-none-manylinux_2_12_x86_64.manylinux2010_x86_64.musllinux_1_1_x86_64.whl",
                     "sha256": "6dbddfe4dc7ddee60bbac854870bd7cfec660acb54d015d24597d59a1c828f61",
-                    "only-arches": ["x86_64"]
+                    "only-arches": ["x86_64"],
                     "x-checker-data": {
                         "type": "pypi",
                         "name": "maturin"
@@ -128,7 +128,7 @@
                     "type": "file",
                     "url": "https://files.pythonhosted.org/packages/93/1b/2419843a4f1d2fb4747f3dc3d9c4a2881cd97a3274dd94738fcdf0835e79/maturin-1.12.6-py3-none-manylinux_2_17_aarch64.manylinux2014_aarch64.musllinux_1_1_aarch64.whl",
                     "sha256": "8fdb0f63e77ee3df0f027a120e9af78dbc31edf0eb0f263d55783c250c33b728",
-                    "only-arches": ["aarch64"]
+                    "only-arches": ["aarch64"],
                     "x-checker-data": {
                         "type": "pypi",
                         "name": "maturin"
