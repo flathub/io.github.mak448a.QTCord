@@ -1,7 +1,7 @@
 # Build instructions
 
 Download flatpak-pip-generator
-`curl -o flatpak-pip-generator https://raw.githubusercontent.com/flatpak/flatpak-builder-tools/master/pip/flatpak-pip-generator`
+`curl -o flatpak-pip-generator https://raw.githubusercontent.com/flatpak/flatpak-builder-tools/master/pip/flatpak-pip-generator.py`
 
 Do a `python3 flatpak-pip-generator --checker-data requests platformdirs, etc.` to generate a json file (keep this separate!).
 
