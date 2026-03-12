@@ -99,6 +99,43 @@
             ]
         },
         {
+            "name": "python3-cryptography",
+            "buildsystem": "simple",
+            "build-commands": [
+                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"cryptography\" --no-build-isolation"
+            ],
+            "sources": [
+                {
+                    "type": "file",
+                    "url": "https://files.pythonhosted.org/packages/eb/56/b1ba7935a17738ae8453301356628e8147c79dbb825bcbc73dc7401f9846/cffi-2.0.0.tar.gz",
+                    "sha256": "44d1b5909021139fe36001ae048dbdde8214afa20200eda0f64c068cac5d5529",
+                    "x-checker-data": {
+                        "type": "pypi",
+                        "name": "cffi"
+                    }
+                },
+                {
+                    "type": "file",
+                    "url": "https://files.pythonhosted.org/packages/60/04/ee2a9e8542e4fa2773b81771ff8349ff19cdd56b7258a0cc442639052edb/cryptography-46.0.5.tar.gz",
+                    "sha256": "abace499247268e3757271b2f1e244b36b06f8515cf27c4d49468fc9eb16e93d",
+                    "x-checker-data": {
+                        "type": "pypi",
+                        "name": "cryptography"
+                    }
+                },
+                {
+                    "type": "file",
+                    "url": "https://files.pythonhosted.org/packages/0c/c3/44f3fbbfa403ea2a7c779186dc20772604442dde72947e7d01069cbe98e3/pycparser-3.0-py3-none-any.whl",
+                    "sha256": "b727414169a36b7d524c1c3e31839a521725078d7b2ff038656844266160a992",
+                    "x-checker-data": {
+                        "type": "pypi",
+                        "name": "pycparser",
+                        "packagetype": "bdist_wheel"
+                    }
+                }
+            ]
+        },
+        {
             "name": "python3-keyring",
             "buildsystem": "simple",
             "build-commands": [
@@ -172,43 +209,6 @@
                     "x-checker-data": {
                         "type": "pypi",
                         "name": "jeepney",
-                        "packagetype": "bdist_wheel"
-                    }
-                }
-            ]
-        },
-        {
-            "name": "python3-cryptography",
-            "buildsystem": "simple",
-            "build-commands": [
-                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"cryptography\" --no-build-isolation"
-            ],
-            "sources": [
-                {
-                    "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/eb/56/b1ba7935a17738ae8453301356628e8147c79dbb825bcbc73dc7401f9846/cffi-2.0.0.tar.gz",
-                    "sha256": "44d1b5909021139fe36001ae048dbdde8214afa20200eda0f64c068cac5d5529",
-                    "x-checker-data": {
-                        "type": "pypi",
-                        "name": "cffi"
-                    }
-                },
-                {
-                    "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/60/04/ee2a9e8542e4fa2773b81771ff8349ff19cdd56b7258a0cc442639052edb/cryptography-46.0.5.tar.gz",
-                    "sha256": "abace499247268e3757271b2f1e244b36b06f8515cf27c4d49468fc9eb16e93d",
-                    "x-checker-data": {
-                        "type": "pypi",
-                        "name": "cryptography"
-                    }
-                },
-                {
-                    "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/0c/c3/44f3fbbfa403ea2a7c779186dc20772604442dde72947e7d01069cbe98e3/pycparser-3.0-py3-none-any.whl",
-                    "sha256": "b727414169a36b7d524c1c3e31839a521725078d7b2ff038656844266160a992",
-                    "x-checker-data": {
-                        "type": "pypi",
-                        "name": "pycparser",
                         "packagetype": "bdist_wheel"
                     }
                 }
