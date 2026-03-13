@@ -116,8 +116,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/ae/11/7e500d2dd3ba891197b9efd2da5454b74336d64a7cc419aa7327ab74e5f6/cryptography-46.0.5-pp311-pypy311_pp73-manylinux_2_34_x86_64.whl",
-                    "sha256": "2b7a67c9cd56372f3249b39699f2ad479f6991e62ea15800973b956f4b73e257",
+                    "url": "https://files.pythonhosted.org/packages/3b/02/cfe39181b02419bbbbcf3abdd16c1c5c8541f03ca8bda240debc467d5a12/cryptography-46.0.5-cp314-cp314t-manylinux_2_28_x86_64.whl",
+                    "sha256": "1abfdb89b41c3be0365328a410baa9df3ff8a9110fb75e7b52e66803ddabc9a9",
                     "only-arches": ["x86_64"],
                     "x-checker-data": {
                         "type": "pypi",
@@ -126,8 +126,8 @@
                 },
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/ac/97/a538654732974a94ff96c1db621fa464f455c02d4bb7d2652f4edc21d600/cryptography-46.0.5-pp311-pypy311_pp73-manylinux_2_34_aarch64.whl",
-                    "sha256": "d861ee9e76ace6cf36a6a89b959ec08e7bc2493ee39d07ffe5acb23ef46d27da",
+                    "url": "https://files.pythonhosted.org/packages/d8/d2/b27631f401ddd644e94c5cf33c9a4069f72011821cf3dc7309546b0642a0/cryptography-46.0.5-cp314-cp314t-manylinux_2_34_aarch64.whl",
+                    "sha256": "4e817a8920bfbcff8940ecfd60f23d01836408242b30f1a708d93198393a80b4",
                     "only-arches": ["aarch64"],
                     "x-checker-data": {
                         "type": "pypi",
