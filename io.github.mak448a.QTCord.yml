@@ -17,6 +17,7 @@ finish-args:
   - --share=ipc
   - --socket=fallback-x11
   - --device=dri
+  - --talk-name=org.freedesktop.SecretService
 modules:
   - python3-modules.json
   - name: BuildQtcord
