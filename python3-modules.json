@@ -273,6 +273,16 @@
                         "name": "pygobject",
                         "packagetype": "sdist"
                     }
+                },
+                {
+                    "type": "file",
+                    "url": "https://files.pythonhosted.org/packages/0b/78/7d049e63e624d51d0065191dae101a1e36d5d3a2360633772d9ad8afb2d5/meson-1.10.2-py3-none-any.whl",
+                    "sha256": "5f84ef186e6e788d9154db63620fc61b3ece69f643b94b43c8b9203c43d89b36",
+                    "x-checker-data": {
+                        "type": "pypi",
+                        "name": "meson",
+                        "packagetype": "bdist_wheel"
+                    }
                 }
             ]
         }
