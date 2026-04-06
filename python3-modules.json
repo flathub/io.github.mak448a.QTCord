@@ -224,16 +224,7 @@
                         "name": "more_itertools",
                         "packagetype": "bdist_wheel"
                     }
-                }
-            ]
-        },
-        {
-            "name": "python3-keyring",
-            "buildsystem": "simple",
-            "build-commands": [
-                "pip3 install --verbose --exists-action=i --no-index --find-links=\"file://${PWD}\" --prefix=${FLATPAK_DEST} \"pygobject\" --no-build-isolation"
-            ],
-            "sources": [
+                },
                 {
                     "type": "file",
                     "url": "https://files.pythonhosted.org/packages/b7/46/f5af3402b579fd5e11573ce652019a67074317e18c1935cc0b4ba9b35552/secretstorage-3.5.0-py3-none-any.whl",
