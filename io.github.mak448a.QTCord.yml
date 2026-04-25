@@ -31,4 +31,4 @@ modules:
     sources:
       - type: git
         url: https://github.com/mak448a/Qtcord
-        commit: 109710af7408f87dcc55d09f333f35f69a7806df
+        commit: 7764f63864849c429bcf87be2a5376c3bcb75b9f
