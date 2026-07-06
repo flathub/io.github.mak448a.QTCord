@@ -70,8 +70,8 @@
             "sources": [
                 {
                     "type": "file",
-                    "url": "https://files.pythonhosted.org/packages/78/ed/07e560876a4458987511461187b285071f53cde49dd5b25cd8c51091522b/xxhash-3.8.0.tar.gz",
-                    "sha256": "d72b2204f37840b0f16f34192c09b994b97bd25823d723d47a1eddfacf06eb43",
+                    "url": "https://files.pythonhosted.org/packages/8e/63/71aa56b151a1b28770037a61bd4e461c2619cfc8866a4fcaf1548605e325/xxhash-3.8.1.tar.gz",
+                    "sha256": "b0de4bf3aa66363552d52c6a89003c479911f12098cd48a53d44a0f7a25f7c46",
                     "x-checker-data": {
                         "type": "pypi",
                         "name": "xxhash"
